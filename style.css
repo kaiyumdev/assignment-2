@@ -1,0 +1,67 @@
+    body {
+        font-family: 'Lobster', cursive;
+    }
+    
+    .card-section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .bg-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+    
+    .half {
+        width: 40%;
+    }
+    
+    .half>h1,
+    h1 {
+        text-align: center;
+    }
+    
+    .half>h6 {
+        text-align: center;
+    }
+    
+    .footer-half {
+        width: 40%;
+    }
+    
+    .bg-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .top-tag {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        margin: 20px;
+    }
+    
+    .card-body>h2,
+    h4,
+    h6 {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: rgb(255, 166, 0);
+    }
+    
+    .span {
+        color: aqua;
+    }
+    
+    .social-icon {
+        margin-right: -20px;
+    }
